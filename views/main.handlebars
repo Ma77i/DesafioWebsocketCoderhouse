@@ -1,0 +1,56 @@
+<div class="container mx">
+
+    <h2>AGREGAR PRODUCTO</h2>
+    <form method="post" class="m-4">
+
+        <div class="input-group">
+            <label for="title" class="input-group-text">Nombre </label>
+            <input name="title" placeholder="Title" class="form-control" />
+        </div>
+        <div class="input-group">
+            <label for="price" class="input-group-text">Precio </label>
+            <input name="price" type="number" placeholder="Price" class="form-control" />
+        </div>
+        <div class="input-group">
+            <label for="thumbnail" class="input-group-text">Imagen </label>
+            <input name="thumbnail" placeholder="Imagen" class="form-control" />
+        </div>
+        <div class="col-12">
+            {{!-- <input class="btn btn-primary" type="submit" value="Enviar"> --}}
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+
+
+
+    <h2>PRODUCTOS
+
+    </h2>
+    <table class="table table-sm">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+            </tr>
+        </thead>
+        <tbody id="cart"></tbody>
+    </table>
+
+
+    <h2>Chat</h2>
+
+    <div id="room"></div>
+    <form class="form" {{!-- onsubmit="return addMsj(this)" --}} method="post">
+        <div class="input-group">
+            <label for="mail" class="input-group-text">Mail</label>
+            <input type="email" name="mail" placeholder="Mail" id="mail" />
+        </div>
+        <div class="input-group">
+            <label for="mensaje" class="input-group-text">Mensaje</label>
+            <input type="text" name="mensaje" placeholder="Mensaje" id="mensaje">
+        </div>
+        {{!-- <input type="submit" value="Enviar"> --}}
+        <button id="btn" class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
