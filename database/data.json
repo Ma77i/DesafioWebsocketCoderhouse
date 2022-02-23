@@ -28,5 +28,17 @@
     "title": "Swork Turbo Levo",
     "price": "2343",
     "thumbnail": "https://assets.specialized.com/i/specialized/95221-06_LEVO-SW-CARBON-METWHTSIL-CHRM-DRMSIL_HERO"
+  },
+  {
+    "id": 6,
+    "title": "Epic Pro",
+    "price": "2454",
+    "thumbnail": "https://assets.specialized.com/i/specialized/97620-10_EPIC-PRO-ABLN-BLK_HERO?bg=rgb(241,241,241)&w=2500&h=1406&fmt=auto"
+  },
+  {
+    "id": 7,
+    "title": "Epic expert",
+    "price": "323",
+    "thumbnail": "https://assets.specialized.com/i/specialized/90318-30_EPIC-MEN_EXPERT-CARBON-29_CHAR-BLK-RKTRED_HERO"
   }
 ]

@@ -13,10 +13,9 @@
         </div>
         <div class="input-group">
             <label for="thumbnail" class="input-group-text">Imagen </label>
-            <input name="thumbnail" placeholder="Imagen" class="form-control" />
+            <input name="thumbnail" type="url" placeholder="Imagen" class="form-control" />
         </div>
         <div class="col-12">
-            {{!-- <input class="btn btn-primary" type="submit" value="Enviar"> --}}
             <button class="btn btn-primary" type="submit">Submit</button>
         </div>
     </form>
@@ -34,14 +33,15 @@
                 <th scope="col">Precio</th>
             </tr>
         </thead>
-        <tbody id="cart"></tbody>
+        <tbody id="body-table"></tbody>
     </table>
 
 
     <h2>Chat</h2>
 
     <div id="room"></div>
-    <form class="form" {{!-- onsubmit="return addMsj(this)" --}} method="post">
+    
+    <form class="form">
         <div class="input-group">
             <label for="mail" class="input-group-text">Mail</label>
             <input type="email" name="mail" placeholder="Mail" id="mail" />
@@ -50,7 +50,6 @@
             <label for="mensaje" class="input-group-text">Mensaje</label>
             <input type="text" name="mensaje" placeholder="Mensaje" id="mensaje">
         </div>
-        {{!-- <input type="submit" value="Enviar"> --}}
         <button id="btn" class="btn btn-primary" type="submit">Submit</button>
     </form>
 </div>
