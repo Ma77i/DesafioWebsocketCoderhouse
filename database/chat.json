@@ -1,11 +1,12 @@
 [
   {
     "mail": "matias@gmail.com",
+    "date": "Friday, February 25th 2022, 3:07:26",
     "mensaje": "Hola"
   },
   {
     "mail": "jose@gmail.com",
-    "date": 1645811182554,
-    "mensaje": "Bien y vos"
+    "date": "Friday, February 25th 2022, 3:07:42",
+    "mensaje": "Buenas"
   }
 ]
