@@ -37,17 +37,15 @@ io.on('connection', async (socket) => {
     const list = await products.getAll()
     socket.emit("prods", list)
 
-    const msjs = await chats.getAll()
-    io.sockets.emit("msjs", msjs)
-
-
-
-
+    
     socket.on("newMsj", async data=>{
         const msj = await chats.save(data)
-        //console.log(msj)
-        //io.sockets.emit("msjs", chat)
+        console.log(msj)
     })
+
+
+    const msjs = await chats.getAll()
+    io.sockets.emit("msjs", msjs)
 }) 
 
 

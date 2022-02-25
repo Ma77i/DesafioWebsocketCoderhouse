@@ -40,5 +40,11 @@
     "title": "Epic expert",
     "price": "323",
     "thumbnail": "https://assets.specialized.com/i/specialized/90318-30_EPIC-MEN_EXPERT-CARBON-29_CHAR-BLK-RKTRED_HERO"
+  },
+  {
+    "id": 8,
+    "title": "Logo",
+    "price": "4",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/24/Specialized_red_S_black_logotype.jpg"
   }
 ]

@@ -20,7 +20,7 @@ router.get('/', (req, res) => {res.render('main')})
 router.post('/', async (req, res) => {
     const save = await products.save(req.body)
     console.log(save)
-    res.send(save)
+    res.redirect("/")
 })
 
 
