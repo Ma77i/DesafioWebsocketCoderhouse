@@ -5,15 +5,15 @@
 
         <div class="input-group">
             <label for="title" class="input-group-text">Nombre </label>
-            <input name="title" placeholder="Title" class="form-control" required />
+            <input name="title" placeholder="Title" class="form-control" required>
         </div>
         <div class="input-group">
             <label for="price" class="input-group-text">Precio </label>
-            <input name="price" type="number" placeholder="Price" class="form-control" required />
+            <input name="price" type="number" placeholder="Price" class="form-control" required>
         </div>
         <div class="input-group">
             <label for="thumbnail" class="input-group-text">Imagen </label>
-            <input name="thumbnail" type="url" placeholder="Imagen" class="form-control" required />
+            <input name="thumbnail" type="url" placeholder="Imagen" class="form-control" required>
         </div>
         <div class="col-12">
             <button class="btn btn-primary" type="submit">Submit</button>
@@ -25,7 +25,7 @@
     <h2>PRODUCTOS
 
     </h2>
-    <table class="table table-sm">
+    <table class="table table-sm table-hover">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">&nbsp;</th>
@@ -33,7 +33,7 @@
                 <th scope="col">Precio</th>
             </tr>
         </thead>
-        <tbody id="body-table"></tbody>
+        <tbody id="body-table" class=""></tbody>
     </table>
 
 
@@ -41,26 +41,17 @@
 
     <div id="room"></div>
     
-    <form id="formulario" class="form">
+    <form id="formulario" class="m-4">
         <div class="input-group">
             <label for="mail" class="input-group-text">Mail </label>
-            <input id="mail" name="mail" type="email" placeholder="Mail" class="form-control" required />
+            <input id="mail" name="mail" type="email" placeholder="Mail" class="form-control" required>
         </div>
         <div class="input-group">
             <label for="mensaje" class="input-group-text">Mensaje </label>
-            <input id="mensaje" name="mensaje" type="text" placeholder="Mensaje" class="form-control" required />
+            <input id="mensaje" name="mensaje" type="text" placeholder="Mensaje" class="form-control" required>
         </div>
         <div class="col-12">
             <button id="btn" class="btn btn-primary" type="submit">Submit</button>
         </div>
-{{!--         <div class="input-group">
-            <label for="mail" class="input-group-text">Mail</label>
-            <input type="email" name="mail" placeholder="Mail" id="mail" required />
-        </div>
-        <div class="input-group">
-            <label for="mensaje" class="input-group-text">Mensaje</label>
-            <input type="text" name="mensaje" placeholder="Mensaje" id="mensaje" required >
-        </div>
-        <button id="btn" class="btn btn-primary" type="submit">Submit</button> --}}
     </form>
 </div>

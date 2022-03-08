@@ -12,11 +12,13 @@ const form = document.getElementById("formulario")
 const renderTable = data => {
     const row = data.map(i=>{
         return (`<tr>
-                    <td class="align-middle"><img src=${i.thumbnail} alt="${i.title}" width="100"></td>
+                    <td class="align-middle"><img src=${i.thumbnail} alt="${i.title}" width="60"></td>
                     <td>${i.title}</td>
                     <td>${i.price}</td>
                 </tr>`)
             });
+
+            
     bodyTable.innerHTML = row
 }
 
